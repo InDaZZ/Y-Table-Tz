@@ -6,7 +6,7 @@
   grid-template-rows: min-content min-content min-content;
   grid-template-columns: min-content min-content;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .main {
     padding: 13px 12px;
     max-width: 320px;
