@@ -1,0 +1,15 @@
+.description {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 37.4px;
+  margin: 0;
+  color: #181818;
+}
+
+@media screen and (max-width: 350px) {
+  .description {
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+}

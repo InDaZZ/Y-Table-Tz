@@ -1,1 +1,1 @@
-# Y-Table-Tz
+# Стек: HTML,CSS,JS (vanila)

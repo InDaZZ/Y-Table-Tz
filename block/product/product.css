@@ -1,0 +1,115 @@
+.product {
+  position: relative;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.product_upper_part {
+  background-image: url(../../images/table_upper\ part.png);
+  width: 900px;
+  height: 530px;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+
+.product_lower_part {
+  background-image: url(../../images/table_lower\ part.png);
+  width: 900px;
+  height: 285px;
+  background-repeat: no-repeat;
+  background-position: center 87%;
+  z-index: 5;
+  position: relative;
+  z-index: 5;
+  bottom: 10px;
+}
+
+.product__buttons-container {
+  font-family: "Ubuntu";
+  display: flex;
+  font-weight: 300;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.product__button-toggle-anim {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 40.19px;
+  line-height: 68.33px;
+  border: none;
+  border-radius: 100px;
+  background-color: #a6ffff;
+}
+.product__button-toggle-anim:hover {
+  cursor: pointer;
+}
+
+.product__button-toggle-anim_up {
+  margin-right: 74px;
+}
+
+@keyframes to-down {
+  100% {
+    background-position: center 0%;
+  }
+}
+
+@keyframes to-up {
+  0% {
+    background-position: center 0%;
+  }
+  100% {
+    background-position: center 30%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product_upper_part {
+    background-image: url(../../images/table_upper\ part_mobile.png);
+    width: 300px;
+    height: 182px;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product_lower_part {
+    background-image: url(../../images/table_lower\ part_mobile.png);
+    width: 300px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-position: center 87%;
+    z-index: 5;
+    position: relative;
+    z-index: 5;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product__button-toggle-anim {
+    width: 61px;
+    height: 61px;
+    font-size: 12.28px;
+    line-height: 20.87px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product__button-toggle-anim_up {
+    margin-right: 22.5 px;
+  }
+}

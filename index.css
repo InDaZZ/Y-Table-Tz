@@ -1,0 +1,14 @@
+@import url(./vendors/fonts/font.css);
+@import url(./block/main/main.css);
+@import url(./block/title/title.css);
+@import url(./block/description/description.css);
+@import url(./block/product/product.css);
+@import url(./block/);
+@import url(./block/);
+@import url(./block/);
+body {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  padding: 20px 0;
+  margin: 0;
+}
